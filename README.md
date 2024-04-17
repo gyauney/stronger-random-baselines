@@ -7,7 +7,11 @@ The standalone expected maximum random baseline is available
 
 ## Requirements
 
-Reproducing the figures from cached results requires `numpy`, `scipy`, and `mpmath`.
+Install the requirements for reproducing the figures:
+
+```
+pip install -r requirements.txt
+```
 
 We also require the [`show_your_work`](https://github.com/dodgejesse/show_your_work)
 package to calculate expected max validation accuracy and the
@@ -38,10 +42,10 @@ To reproduce the figures and tables in the paper:
 
 ## Regenerating experimental results
 
-Use pip to install all of the requirements:
+First install all of the requirements for running evaluations:
 
 ```
-pip install -r requirements.txt
+pip install -r requirements-eval.txt
 ```
 
 The `few-shot-eval` directory contains code for reproducing all of the paper's few-shot results from scratch. It also includes which examples were subsampled from large datasets.
