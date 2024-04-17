@@ -1,0 +1,57 @@
+BIGBENCH_LITE_DETAILS = {
+    "hindu_knowledge": (175, 1/4),
+    "bbq_lite_json": (16076, 1/3),
+    "code_line_description": (60, 1/4),
+    "conceptual_combinations": (103, 1/4),
+    "emoji_movie": (100, 1/5),
+    "formal_fallacies_syllogisms_negation": (14200, 1/2),
+    "known_unknowns": (46, 1/2),
+    "language_identification":  (10000, 1/11),
+    "logical_deduction": (1500, 1/5),
+    "misconceptions_russian": (49, 1/2),
+    "novel_concepts": (32, 1/5),
+    "play_dialog_same_or_different": (3264, 1/2),
+    "strange_stories": (174, 1/3),
+    "strategyqa": (2289, 1/2),
+    "symbol_interpretation": (990, 1/5),
+    "vitaminc_fact_verification": (54668, 1/3),
+    "winowhy": (2862, 1/5)
+}
+
+BIGBENCH_LITE_DETAILS_NUM_CHOICES = {
+    "hindu_knowledge": (175, 4),
+    "bbq_lite_json": (16076, 3),
+    "code_line_description": (60, 4),
+    "conceptual_combinations": (103, 4),
+    "emoji_movie": (100, 5),
+    "formal_fallacies_syllogisms_negation": (14200, 2),
+    "known_unknowns": (46, 2),
+    "language_identification":  (10000, 11),
+    "logical_deduction": (1500, 5),
+    "misconceptions_russian": (49, 2),
+    "novel_concepts": (32, 5),
+    "play_dialog_same_or_different": (3264, 2),
+    "strange_stories": (174, 3),
+    "strategyqa": (2289, 2),
+    "symbol_interpretation": (990, 5),
+    "vitaminc_fact_verification": (54668, 3),
+    "winowhy": (2862, 5)
+}
+
+BIGBENCH_HARD_DETAILS = {
+    'causal_judgement': (190, 1/2),
+    'disambiguation_qa': (258, 1/3),
+    'formal_fallacies': (14200, 1/2),
+    'geometric_shapes': (359, 1/10),
+    'hyperbaton': (50000, 1/2),
+    'logical_deduction_five_objects':  (500, 1/5),
+    'logical_deduction_seven_objects': (500, 1/7),
+    'logical_deduction_three_objects': (500, 1/3),
+    'movie_recommendation': (500, 1/4),
+    'navigate':  (1000, 1/2),
+    'penguins_in_a_table': (149, 1/5),
+    'ruin_names':  (448, 1/4),
+    'salient_translation_error_detection':  (998, 1/6),
+    'snarks':  (181, 1/2),
+    'sports_understanding':  (986, 1/2),
+}
